@@ -5,7 +5,6 @@ namespace InventarioTienda
 {
     internal class Program
     {
-        // Almacena produ
         public class Producto
         {
             public int Codigo;
