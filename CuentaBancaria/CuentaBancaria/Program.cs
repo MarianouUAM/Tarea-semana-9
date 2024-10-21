@@ -7,8 +7,8 @@ namespace GestionCuentaBancaria
     {
         public class CuentaBancaria
         {
-            public double Saldo { get; private set; }
-            public List<string> HistorialTransacciones { get; private set; }
+            public double Saldo;
+            public List<string> HistorialTransacciones;
 
             // Constructor para inicializar 
             public CuentaBancaria(double saldoInicial)
